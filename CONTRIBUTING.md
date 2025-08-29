@@ -44,6 +44,7 @@ We welcome all kinds of contributions, including but not limited to:
 - **Use real-world examples** where possible
 - **Follow existing folder structure** (tutorials, projects, resources)
 - **Add comments/documentation** in your code for clarity
+- **Remove .git folders** from projects before adding (to avoid nested repositories)
 - **Respect community members** – this is a collaborative space!
 
 
