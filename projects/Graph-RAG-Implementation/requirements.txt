@@ -1,0 +1,7 @@
+google-generativeai
+networkx
+python-dotenv
+langchain-google-genai
+langchain-experimental
+langchain-community
+pyvis
