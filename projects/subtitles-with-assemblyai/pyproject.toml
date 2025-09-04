@@ -1,0 +1,11 @@
+[project]
+name = "subtitles-with-assemblyai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "assemblyai>=0.43.1",
+    "dotenv>=0.9.9",
+    "streamlit>=1.49.1",
+]
