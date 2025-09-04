@@ -18,6 +18,15 @@ Perform document understanding with a Retrieval-Augmented Generation (RAG) flow:
 
 - Python 3.10 or later
 - `uv` package manager (recommended) or pip
+- Google API key
+
+### 1. Get Google API Key
+
+1. Create a `.env` file in the project root:
+
+```bash
+GOOGLE_API_KEY="your_google_api_key_here"
+```
 
 ## Quick start (Windows PowerShell)
 
@@ -29,6 +38,7 @@ uv run streamlit run main.py
 
 ```
 Document_Analysis_using_RAG/
+|__ .env               # .env file
 ├── main.py            # example runner for ingestion + query
 ├── pyproject.toml     # dependency manifest
 ├── uv.lock            # lockfile for uv
