@@ -1,0 +1,5 @@
+deepmcpagent[deep,examples]>=0.3.0
+langchain-openai>=0.1.0
+langchain-google-genai>=2.0.0
+python-dotenv>=1.0.1
+rich>=13.7.1
