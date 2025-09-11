@@ -1,0 +1,12 @@
+[project]
+name = "parlant-healthcare-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "google-genai>=1.36.0",
+    "google-generativeai>=0.8.5",
+    "parlant>=3.0.2",
+]
