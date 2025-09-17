@@ -1,0 +1,9 @@
+[project]
+name = " linkedin-post-similarity-engine"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastembed>=0.7.3",
+]
