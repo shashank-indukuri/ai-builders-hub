@@ -1,0 +1,13 @@
+[project]
+name = "online-machine-learning-with-river"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.3.3",
+    "river>=0.22.0",
+    "scikit-learn>=1.7.2",
+    "streamlit>=1.49.1",
+    "tabulate>=0.9.0",
+]
