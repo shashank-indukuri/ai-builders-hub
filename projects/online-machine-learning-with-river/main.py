@@ -109,13 +109,95 @@ def generate_hard_drift_data(ham_keywords, new_spam_keywords, num_samples):
 
 # --- 2. Model Simulation and Evaluation ---
 
+def analyze_keyword_distribution(messages, keywords, label):
+    """Analyze keyword distribution in messages."""
+    word_counts = {word: 0 for word in keywords}
+    total_words = 0
+    
+    for msg in messages:
+        words = msg.split()
+        for word in words:
+            if word in word_counts:
+                word_counts[word] += 1
+                total_words += 1
+    
+    # Convert to percentage of total keyword occurrences
+    if total_words > 0:
+        word_percentages = {k: (v/total_words)*100 for k, v in word_counts.items()}
+    else:
+        word_percentages = {k: 0 for k in word_counts}
+    
+    return word_percentages
+
+def create_comparison_table(initial_data, initial_labels, new_data, new_labels, initial_keywords, new_keywords):
+    """Create a comparison table between initial and new data."""
+    # Calculate statistics
+    initial_ham = [msg for msg, label in zip(initial_data, initial_labels) if label == 0]
+    initial_spam = [msg for msg, label in zip(initial_data, initial_labels) if label == 1]
+    new_spam = [msg for msg, label in zip(new_data, new_labels) if label == 1]
+    
+    # Analyze keyword distributions
+    initial_spam_dist = analyze_keyword_distribution(initial_spam, initial_keywords, "Initial Spam")
+    new_spam_dist = analyze_keyword_distribution(new_spam, new_keywords, "New Spam")
+    
+    # Create comparison table
+    comparison_data = []
+    
+    # Add initial spam keywords
+    for word in initial_keywords:
+        comparison_data.append({
+            "Type": "Initial Spam",
+            "Keyword": word,
+            "Frequency %": f"{initial_spam_dist.get(word, 0):.1f}%"
+        })
+    
+    # Add new spam keywords
+    for word in new_keywords:
+        comparison_data.append({
+            "Type": "New Spam",
+            "Keyword": word,
+            "Frequency %": f"{new_spam_dist.get(word, 0):.1f}%"
+        })
+    
+    # Add summary statistics
+    comparison_data.extend([
+        {"Type": "-", "Keyword": "-", "Frequency %": "-"},
+        {"Type": "Total Samples", "Keyword": f"Initial: {len(initial_data)}", "Frequency %": f"New: {len(new_data)}"},
+        {"Type": "Spam %", "Keyword": f"{len(initial_spam)/len(initial_data)*100:.1f}%", "Frequency %": f"{len(new_spam)/len(new_data)*100:.1f}%"}
+    ])
+    
+    return pd.DataFrame(comparison_data)
+
 def run_simulation(progress_bar, status_text, results_placeholder):
     # Data generation
     initial_ham_keywords = ["meeting", "project", "report", "lunch", "team", "task"]
     initial_spam_keywords = ["free", "prize", "winner", "cash", "congratulations", "claim"]
     new_spam_keywords = ["crypto", "blockchain", "investment", "financial", "trading"]
+    
+    # Generate initial and drifted data
     initial_X, initial_y = generate_data(initial_ham_keywords, initial_spam_keywords, num_samples=1000)
     drift_X, drift_y = generate_hard_drift_data(initial_ham_keywords, new_spam_keywords, num_samples=50)
+    
+    # Display data comparison
+    with st.expander("🔍 Data Analysis"):
+        st.subheader("Training Data vs. New Spam Patterns")
+        comparison_df = create_comparison_table(
+            initial_X, initial_y, 
+            drift_X, drift_y,
+            initial_spam_keywords,
+            new_spam_keywords
+        )
+        st.dataframe(comparison_df, use_container_width=True)
+        
+        # Add some analysis
+        st.markdown("""
+        **Key Observations:**
+        - **Initial Spam**: Contains traditional spam keywords like 'free', 'prize', 'winner'
+        - **New Spam**: Features financial terms like 'crypto', 'blockchain', 'investment'
+        - **Concept Drift**: The model needs to adapt from traditional spam patterns to financial spam patterns
+        """)
+    
+    # Prepare stream data
     stream_X = initial_X[:200] + drift_X
     stream_y = initial_y[:200] + drift_y
 
@@ -158,6 +240,12 @@ def run_simulation(progress_bar, status_text, results_placeholder):
     # Track model's understanding of new patterns
     new_patterns_learned = 0
     model_updates = 0
+    
+    # Track model performance on different data types
+    initial_correct = 0
+    initial_total = 0
+    drift_correct = 0
+    drift_total = 0
 
     for i, (text, true_label) in enumerate(zip(stream_X, stream_y)):
         progress_percentage = int((i + 1) / len(stream_X) * 100)
@@ -197,6 +285,16 @@ def run_simulation(progress_bar, status_text, results_placeholder):
         # Track performance and confidence
         online_correct = online_pred_post == true_label
         batch_correct = batch_pred == true_label
+        
+        # Track performance on different data types
+        if i < 200:  # Initial data
+            initial_total += 1
+            if online_correct:
+                initial_correct += 1
+        else:  # Drift data
+            drift_total += 1
+            if online_correct:
+                drift_correct += 1
         
         online_predictions.append(online_correct)
         batch_predictions.append(batch_correct)
@@ -269,7 +367,7 @@ def run_simulation(progress_bar, status_text, results_placeholder):
     learning_df = pd.DataFrame(learning_progress) if learning_progress else pd.DataFrame()
     
     # Create tabs for different visualizations
-    tab1, tab2, tab3 = st.tabs(["Performance Overview", "Learning Progress", "Detailed Analysis"])
+    tab1, tab2, tab3, tab4 = st.tabs(["Performance Overview", "Learning Progress", "Detailed Analysis", "Data Pattern Analysis"])
     
     with tab1:
         st.subheader("Model Performance Summary")
@@ -347,6 +445,71 @@ def run_simulation(progress_bar, status_text, results_placeholder):
                 st.bar_chart(phase_perf * 100)
         else:
             st.info("No detailed analysis data available.")
+    
+    with tab4:
+        st.subheader("Data Pattern Analysis")
+        
+        # Split data into initial and drift phases
+        initial_data = stream_X[:200]
+        initial_labels = stream_y[:200]
+        drift_data = stream_X[200:] if len(stream_X) > 200 else []
+        drift_labels = stream_y[200:] if len(stream_y) > 200 else []
+        
+        # Show keyword distribution comparison
+        st.write("### Keyword Distribution Comparison")
+        
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            st.write("#### Initial Training Data")
+            if initial_data:
+                initial_ham = [msg for msg, label in zip(initial_data, initial_labels) if label == 0]
+                initial_spam = [msg for msg, label in zip(initial_data, initial_labels) if label == 1]
+                
+                st.write(f"**Total Samples:** {len(initial_data)}")
+                st.write(f"- Ham: {len(initial_ham)} ({len(initial_ham)/len(initial_data)*100:.1f}%)")
+                st.write(f"- Spam: {len(initial_spam)} ({len(initial_spam)/len(initial_data)*100:.1f}%)")
+                
+                # Show top keywords in initial spam
+                if initial_spam:
+                    st.write("**Top Spam Keywords:**")
+                    spam_words = " ".join(initial_spam).split()
+                    word_counts = pd.Series(spam_words).value_counts().head(10)
+                    st.bar_chart(word_counts)
+        
+        with col2:
+            st.write("#### New Spam Patterns")
+            if drift_data:
+                drift_ham = [msg for msg, label in zip(drift_data, drift_labels) if label == 0]
+                drift_spam = [msg for msg, label in zip(drift_data, drift_labels) if label == 1]
+                
+                st.write(f"**Total Samples:** {len(drift_data)}")
+                st.write(f"- Ham: {len(drift_ham)} ({len(drift_ham)/len(drift_data)*100:.1f}%)")
+                st.write(f"- Spam: {len(drift_spam)} ({len(drift_spam)/len(drift_data)*100:.1f}%)")
+                
+                # Show top keywords in new spam
+                if drift_spam:
+                    st.write("**Top New Spam Keywords:**")
+                    spam_words = " ".join(drift_spam).split()
+                    word_counts = pd.Series(spam_words).value_counts().head(10)
+                    st.bar_chart(word_counts)
+        
+        # Show sample messages
+        st.write("### Sample Messages")
+        
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            st.write("#### Initial Spam Examples")
+            if initial_spam:
+                for i, msg in enumerate(initial_spam[:3]):
+                    st.markdown(f"{i+1}. `{msg[:50]}{'...' if len(msg) > 50 else ''}")
+        
+        with col2:
+            st.write("#### New Spam Examples")
+            if drift_spam:
+                for i, msg in enumerate(drift_spam[:3]):
+                    st.markdown(f"{i+1}. `{msg[:50]}{'...' if len(msg) > 50 else ''}")
     
     # Final summary
     st.success("""
