@@ -1,0 +1,1352 @@
+[
+  {
+    "url": "https://blog.scrapinghub.com/",
+    "depth": 0,
+    "labels": [
+      "web scraping",
+      "engineering blog",
+      "product announcement",
+      "terms of service",
+      "case study",
+      "data privacy",
+      "company news",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9446,
+      0.3123,
+      0.2773,
+      0.2226,
+      0.2067,
+      0.1928,
+      0.1816,
+      0.1363,
+      0.06
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://docs.zyte.com",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "tutorial",
+      "case study",
+      "engineering blog",
+      "company news",
+      "terms of service",
+      "data privacy",
+      "product announcement",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9885,
+      0.7306,
+      0.5839,
+      0.2085,
+      0.196,
+      0.1116,
+      0.111,
+      0.0544,
+      0.0337
+    ],
+    "preview": "[ Login ![](https://docs.zyte.com/_static/images/login_icon.svg) ](https://app.zyte.com)\n[![](https://docs.zyte.com/_static/images/logo_white.svg)](https://docs.zyte.com/)\n  * [zyte.com](https://www.zyte.com/)\n  * [Support](https://support.zyte.com/)\n  * [System status](https://s"
+  },
+  {
+    "url": "https://support.zyte.com/support/home",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "case study",
+      "engineering blog",
+      "tutorial",
+      "company news",
+      "data privacy",
+      "cookies and tracking",
+      "terms of service",
+      "product announcement"
+    ],
+    "scores": [
+      0.4413,
+      0.2783,
+      0.2143,
+      0.2136,
+      0.1641,
+      0.11,
+      0.0897,
+      0.0878,
+      0.0637
+    ],
+    "preview": "[Skip to main content](https://support.zyte.com/support/home#fw-main-content)\n[ ![Freshworks Logo](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/22153729012/logo/mnEafKVFm7oVl5AX9kNuea_4tQvnsmqtzw.png) Zyte ](https://support.zyte.com/support/home"
+  },
+  {
+    "url": "https://www.zyte.com/blog/agentic-web-scraping",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "company news",
+      "engineering blog",
+      "product announcement",
+      "case study",
+      "data privacy",
+      "terms of service",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9567,
+      0.4856,
+      0.4764,
+      0.4749,
+      0.3946,
+      0.2857,
+      0.2738,
+      0.1887,
+      0.0407
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/blog/death-of-the-proxy",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "product announcement",
+      "company news",
+      "case study",
+      "data privacy",
+      "terms of service",
+      "engineering blog",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9504,
+      0.4716,
+      0.3623,
+      0.3281,
+      0.3273,
+      0.2871,
+      0.2444,
+      0.1924,
+      0.0691
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/blog",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "engineering blog",
+      "product announcement",
+      "terms of service",
+      "case study",
+      "data privacy",
+      "company news",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9446,
+      0.3123,
+      0.2773,
+      0.2226,
+      0.2067,
+      0.1928,
+      0.1816,
+      0.1363,
+      0.06
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/blog/why-the-best-engineers-are-actually-lazy",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "engineering blog",
+      "product announcement",
+      "terms of service",
+      "tutorial",
+      "company news",
+      "case study",
+      "cookies and tracking",
+      "data privacy"
+    ],
+    "scores": [
+      0.9713,
+      0.7645,
+      0.7592,
+      0.7354,
+      0.6558,
+      0.6512,
+      0.5525,
+      0.5362,
+      0.3884
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/blog/new-in-zyte-scroll-control-lower-costs-and-more",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "company news",
+      "product announcement",
+      "engineering blog",
+      "data privacy",
+      "terms of service",
+      "case study",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9772,
+      0.7601,
+      0.72,
+      0.6996,
+      0.659,
+      0.5445,
+      0.5288,
+      0.4265,
+      0.3224
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/blog/the-new-hybrid-data-economy",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "product announcement",
+      "company news",
+      "engineering blog",
+      "case study",
+      "data privacy",
+      "terms of service",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9774,
+      0.7388,
+      0.7032,
+      0.6167,
+      0.6096,
+      0.5291,
+      0.476,
+      0.2995,
+      0.1821
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/blog/ai-web-scraping-as-the-future-of-scalable-data-collection",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "engineering blog",
+      "company news",
+      "terms of service",
+      "case study",
+      "product announcement",
+      "tutorial",
+      "data privacy",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9479,
+      0.5566,
+      0.4224,
+      0.3514,
+      0.2599,
+      0.2474,
+      0.2285,
+      0.2002,
+      0.1027
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/blog/ten-building-blocks-to-scale-web-scraping",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "product announcement",
+      "company news",
+      "data privacy",
+      "engineering blog",
+      "terms of service",
+      "case study",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9788,
+      0.845,
+      0.8313,
+      0.7937,
+      0.7834,
+      0.6619,
+      0.6525,
+      0.5714,
+      0.5271
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/blog/how-zytes-extraction-experts-guarantee-data-quality",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "company news",
+      "product announcement",
+      "data privacy",
+      "case study",
+      "engineering blog",
+      "terms of service",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9824,
+      0.8241,
+      0.7759,
+      0.73,
+      0.6742,
+      0.5863,
+      0.5804,
+      0.433,
+      0.28
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/blog/how-to-plan-your-web-scraping-project-like-a-product-manager",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "engineering blog",
+      "company news",
+      "product announcement",
+      "terms of service",
+      "data privacy",
+      "case study",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.947,
+      0.596,
+      0.5397,
+      0.422,
+      0.4045,
+      0.3691,
+      0.2887,
+      0.2644,
+      0.1346
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/blog/how-price-extraction-is-fuelling-insights-for-modern-retailers",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "engineering blog",
+      "company news",
+      "product announcement",
+      "terms of service",
+      "data privacy",
+      "case study",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9394,
+      0.5012,
+      0.4374,
+      0.4127,
+      0.3563,
+      0.3062,
+      0.2413,
+      0.184,
+      0.1275
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/blog/7-myths-about-web-scraping-apis-busted",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "terms of service",
+      "product announcement",
+      "company news",
+      "engineering blog",
+      "tutorial",
+      "case study",
+      "data privacy",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9542,
+      0.6218,
+      0.4906,
+      0.4742,
+      0.4285,
+      0.3811,
+      0.3638,
+      0.2687,
+      0.2412
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "product announcement",
+      "company news",
+      "data privacy",
+      "terms of service",
+      "case study",
+      "engineering blog",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9835,
+      0.8012,
+      0.7017,
+      0.6586,
+      0.6214,
+      0.571,
+      0.4491,
+      0.4119,
+      0.2953
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/case-study",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "case study",
+      "company news",
+      "product announcement",
+      "terms of service",
+      "engineering blog",
+      "data privacy",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9642,
+      0.6857,
+      0.5109,
+      0.4833,
+      0.3844,
+      0.2929,
+      0.2766,
+      0.2107,
+      0.1253
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/contact-us",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "company news",
+      "product announcement",
+      "case study",
+      "engineering blog",
+      "terms of service",
+      "data privacy",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9903,
+      0.8247,
+      0.7941,
+      0.7386,
+      0.6994,
+      0.6431,
+      0.5914,
+      0.5852,
+      0.2312
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/blog/rise-of-the-data-vendor",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "company news",
+      "product announcement",
+      "engineering blog",
+      "case study",
+      "terms of service",
+      "data privacy",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9651,
+      0.565,
+      0.5435,
+      0.4544,
+      0.439,
+      0.4156,
+      0.3405,
+      0.2641,
+      0.0682
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/data-compliance",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "product announcement",
+      "company news",
+      "terms of service",
+      "case study",
+      "engineering blog",
+      "data privacy",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.984,
+      0.7618,
+      0.7095,
+      0.6989,
+      0.6587,
+      0.6386,
+      0.5127,
+      0.4192,
+      0.2777
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/data-extraction",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "product announcement",
+      "terms of service",
+      "company news",
+      "case study",
+      "engineering blog",
+      "data privacy",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9716,
+      0.7185,
+      0.7147,
+      0.5996,
+      0.5921,
+      0.5434,
+      0.4681,
+      0.3412,
+      0.2947
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/blog/the-future-of-scrapy",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "engineering blog",
+      "company news",
+      "product announcement",
+      "case study",
+      "terms of service",
+      "data privacy",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9677,
+      0.5619,
+      0.4923,
+      0.4546,
+      0.4443,
+      0.2844,
+      0.2786,
+      0.264,
+      0.0483
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/automated-data-extraction",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "company news",
+      "product announcement",
+      "case study",
+      "engineering blog",
+      "tutorial",
+      "terms of service",
+      "data privacy",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9642,
+      0.4892,
+      0.4816,
+      0.3641,
+      0.2526,
+      0.1912,
+      0.1802,
+      0.1667,
+      0.0296
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/blog/the-dq-playbook-how-data-quality-fuels-business-pursuit-of-precision",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "engineering blog",
+      "company news",
+      "case study",
+      "data privacy",
+      "terms of service",
+      "product announcement",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9471,
+      0.5525,
+      0.5286,
+      0.4884,
+      0.4142,
+      0.4087,
+      0.3986,
+      0.3124,
+      0.1281
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://app.zyte.com/account/login",
+    "depth": 1,
+    "labels": [
+      "case study",
+      "engineering blog",
+      "terms of service",
+      "product announcement",
+      "tutorial",
+      "company news",
+      "data privacy",
+      "web scraping",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.5529,
+      0.4526,
+      0.4373,
+      0.3824,
+      0.3403,
+      0.285,
+      0.2616,
+      0.0985,
+      0.0587
+    ],
+    "preview": " \n \n         Zyte \n         \n         \n     "
+  },
+  {
+    "url": "https://www.zyte.com/blog/four-sweet-spots-for-ai-in-web-scraping",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "engineering blog",
+      "company news",
+      "product announcement",
+      "terms of service",
+      "case study",
+      "data privacy",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9873,
+      0.8586,
+      0.7805,
+      0.7678,
+      0.7127,
+      0.6513,
+      0.5785,
+      0.4993,
+      0.2339
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/ai-web-scraping",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "terms of service",
+      "product announcement",
+      "company news",
+      "case study",
+      "engineering blog",
+      "data privacy",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9789,
+      0.8199,
+      0.793,
+      0.6824,
+      0.6563,
+      0.6143,
+      0.456,
+      0.4069,
+      0.3615
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/jobs",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "product announcement",
+      "terms of service",
+      "company news",
+      "case study",
+      "engineering blog",
+      "data privacy",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.959,
+      0.3247,
+      0.2913,
+      0.2341,
+      0.232,
+      0.2309,
+      0.2229,
+      0.1601,
+      0.0723
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/data-types/extract-news-article-data",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "company news",
+      "case study",
+      "product announcement",
+      "data privacy",
+      "terms of service",
+      "engineering blog",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9771,
+      0.5161,
+      0.4482,
+      0.4281,
+      0.3586,
+      0.3336,
+      0.2296,
+      0.169,
+      0.16
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/meet-zyte",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "product announcement",
+      "company news",
+      "terms of service",
+      "case study",
+      "data privacy",
+      "engineering blog",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9682,
+      0.7405,
+      0.6253,
+      0.5974,
+      0.5764,
+      0.4421,
+      0.3358,
+      0.277,
+      0.2148
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/learn",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "engineering blog",
+      "terms of service",
+      "company news",
+      "case study",
+      "tutorial",
+      "product announcement",
+      "data privacy",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9804,
+      0.3306,
+      0.3153,
+      0.2823,
+      0.2775,
+      0.2657,
+      0.2616,
+      0.2061,
+      0.0724
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/open-source",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "product announcement",
+      "company news",
+      "terms of service",
+      "case study",
+      "engineering blog",
+      "tutorial",
+      "data privacy",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9622,
+      0.5947,
+      0.5447,
+      0.5152,
+      0.3863,
+      0.3322,
+      0.2986,
+      0.2854,
+      0.1593
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/data-types/web-data-for-ai",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "product announcement",
+      "company news",
+      "case study",
+      "terms of service",
+      "data privacy",
+      "engineering blog",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.967,
+      0.6459,
+      0.6102,
+      0.4984,
+      0.3825,
+      0.3307,
+      0.3143,
+      0.2845,
+      0.0738
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/resources",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "product announcement",
+      "company news",
+      "terms of service",
+      "case study",
+      "engineering blog",
+      "data privacy",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9753,
+      0.706,
+      0.6254,
+      0.5857,
+      0.5638,
+      0.5136,
+      0.4125,
+      0.3569,
+      0.1874
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/data-types/extract-job-posting-data",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "product announcement",
+      "company news",
+      "case study",
+      "engineering blog",
+      "terms of service",
+      "tutorial",
+      "data privacy",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9788,
+      0.7985,
+      0.7407,
+      0.7131,
+      0.5672,
+      0.5664,
+      0.5609,
+      0.485,
+      0.3387
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/ban-handling-headless-browser",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "company news",
+      "product announcement",
+      "case study",
+      "tutorial",
+      "engineering blog",
+      "data privacy",
+      "terms of service",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9716,
+      0.4497,
+      0.4361,
+      0.3335,
+      0.3258,
+      0.3241,
+      0.2486,
+      0.2473,
+      0.0411
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/data-types/extract-search-engine-data",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "product announcement",
+      "company news",
+      "case study",
+      "engineering blog",
+      "terms of service",
+      "tutorial",
+      "data privacy",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9623,
+      0.7612,
+      0.6862,
+      0.6407,
+      0.4718,
+      0.4098,
+      0.4036,
+      0.3114,
+      0.2114
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/data-types/extract-social-media-data",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "product announcement",
+      "company news",
+      "case study",
+      "terms of service",
+      "engineering blog",
+      "tutorial",
+      "data privacy",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9807,
+      0.8573,
+      0.8202,
+      0.7425,
+      0.6058,
+      0.5955,
+      0.5489,
+      0.4987,
+      0.3451
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/data-types/extract-product-ecommerce-data",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "product announcement",
+      "company news",
+      "case study",
+      "terms of service",
+      "tutorial",
+      "engineering blog",
+      "data privacy",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9801,
+      0.7972,
+      0.7797,
+      0.6551,
+      0.6077,
+      0.547,
+      0.514,
+      0.5042,
+      0.2948
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/terms-policies",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "product announcement",
+      "terms of service",
+      "case study",
+      "company news",
+      "engineering blog",
+      "data privacy",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9847,
+      0.8638,
+      0.7873,
+      0.7361,
+      0.7213,
+      0.616,
+      0.6099,
+      0.4391,
+      0.2472
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/pricing",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "terms of service",
+      "product announcement",
+      "engineering blog",
+      "case study",
+      "company news",
+      "data privacy",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9791,
+      0.4104,
+      0.3887,
+      0.3757,
+      0.3754,
+      0.3753,
+      0.2696,
+      0.245,
+      0.1118
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/webinars",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "product announcement",
+      "case study",
+      "terms of service",
+      "company news",
+      "engineering blog",
+      "data privacy",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9767,
+      0.5735,
+      0.5033,
+      0.4859,
+      0.4659,
+      0.4519,
+      0.4445,
+      0.256,
+      0.1513
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/zyte-web-scraping-api",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "terms of service",
+      "company news",
+      "tutorial",
+      "product announcement",
+      "engineering blog",
+      "case study",
+      "data privacy",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.8748,
+      0.6005,
+      0.5071,
+      0.4937,
+      0.3985,
+      0.3325,
+      0.3145,
+      0.2325,
+      0.2258
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/whitepaper-ebook",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "product announcement",
+      "terms of service",
+      "case study",
+      "company news",
+      "engineering blog",
+      "data privacy",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9822,
+      0.5524,
+      0.3931,
+      0.3882,
+      0.3448,
+      0.3091,
+      0.2271,
+      0.1642,
+      0.1146
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/trust-center",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "product announcement",
+      "company news",
+      "case study",
+      "terms of service",
+      "engineering blog",
+      "tutorial",
+      "data privacy",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9304,
+      0.5257,
+      0.4576,
+      0.4248,
+      0.4184,
+      0.3306,
+      0.3081,
+      0.2959,
+      0.1457
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/data-types/extract-real-estate-data",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "product announcement",
+      "company news",
+      "case study",
+      "engineering blog",
+      "terms of service",
+      "tutorial",
+      "data privacy",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9783,
+      0.7853,
+      0.7404,
+      0.7321,
+      0.6186,
+      0.5732,
+      0.5619,
+      0.5314,
+      0.3084
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/scrapy-cloud",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "product announcement",
+      "terms of service",
+      "company news",
+      "case study",
+      "data privacy",
+      "tutorial",
+      "engineering blog",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9454,
+      0.6965,
+      0.5612,
+      0.526,
+      0.4749,
+      0.3704,
+      0.2879,
+      0.2874,
+      0.1967
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/zyte-api",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "company news",
+      "engineering blog",
+      "terms of service",
+      "tutorial",
+      "product announcement",
+      "data privacy",
+      "case study",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9597,
+      0.6516,
+      0.5174,
+      0.5018,
+      0.4853,
+      0.4527,
+      0.4164,
+      0.3421,
+      0.1127
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/developers",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "product announcement",
+      "company news",
+      "terms of service",
+      "case study",
+      "data privacy",
+      "engineering blog",
+      "tutorial",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9469,
+      0.5358,
+      0.4696,
+      0.3812,
+      0.3735,
+      0.3139,
+      0.2989,
+      0.2326,
+      0.1252
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  },
+  {
+    "url": "https://www.zyte.com/solution-overview",
+    "depth": 1,
+    "labels": [
+      "web scraping",
+      "product announcement",
+      "company news",
+      "case study",
+      "terms of service",
+      "engineering blog",
+      "tutorial",
+      "data privacy",
+      "cookies and tracking"
+    ],
+    "scores": [
+      0.9886,
+      0.6194,
+      0.592,
+      0.5562,
+      0.5364,
+      0.449,
+      0.3604,
+      0.261,
+      0.1094
+    ],
+    "preview": "PINGDOM_CHECK\n**Extract Summit returns!** Join global data leaders in Austin (Sept 24–25) & Dublin (Nov 5–6) for expert-led scraping sessions & networking. \n[⚡ Get Tickets](https://www.extractsummit.io/?utm_campaign=ES2025-Promotion&utm_activity=BAN&utm_medium=website&utm_source="
+  }
+]
