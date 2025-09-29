@@ -1,0 +1,15 @@
+[project]
+name = "data-leakage-prevention-for-time-series-ml"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "featuretools[dask]>=1.31.0",
+    "matplotlib>=3.10.6",
+    "pandas>=2.3.2",
+    "pyarrow>=21.0.0",
+    "scikit-learn>=1.7.2",
+    "woodwork>=0.31.0",
+    "xgboost>=3.0.5",
+]
