@@ -1,0 +1,11 @@
+feature_name,importance
+complaint_type.MEAN(requests.closed_within_24h),0.13280707747043405
+agency.MEAN(requests.closed_within_24h),0.07609295347482144
+agency.STD(requests.closed_within_24h),0.05275623080963214
+agency.COUNT(requests),0.04085129585840699
+agency.STD(requests.latitude),0.03807137232503567
+complaint_type.STD(requests.closed_within_24h),0.03770612212410383
+agency.MIN(requests.latitude),0.03089290856106877
+agency.MEAN(requests.longitude),0.03075231257687063
+agency.MEAN(requests.latitude),0.029691409333129023
+agency.STD(requests.longitude),0.027223168769233877
