@@ -1,0 +1,1 @@
+fastapi>=0.118.0\nuvicorn>=0.37.0\nrequests>=2.32.0\npython-dotenv>=1.0.0\npydantic>=2.11.0\n
