@@ -1,0 +1,37 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Dagster
+.tmp_dagster_home_*/
+
+# MLflow
+mlflow.db
+mlruns/
+
+# dbt
+picarx_dbt/target/
+picarx_dbt/logs/
+picarx_dbt/dbt_packages/
+
+# Data (too large for git)
+data/
+logs/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+
+# Secrets — NEVER commit
+.env
+*.env
+
+# ONNX model artifacts (reproducible from MLflow)
+ML/surface_classifier.onnx
+
+# Claude chat history
+data/claude*

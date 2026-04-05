@@ -1,0 +1,29 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: PICARX_DB
+    schema: BRONZE
+    tables:
+      - name: RAW_SENSOR_TELEMETRY
+        description: "Raw sensor data loaded from MinIO Parquet files"
+        config:
+          meta:
+            dagster:
+              asset_key: ["bronze_sensor_telemetry"]
+        columns:
+          - name: DEVICE_ID
+            tests:
+              - accepted_values:
+                  arguments:
+                    values: ["picarx-01"]
+              - not_null
+          - name: CPU_TEMP
+            tests:
+              - dbt_utils.accepted_range:
+                  arguments:
+                    min_value: 0
+                    max_value: 100
+          - name: EVENT_TIMESTAMP
+            tests:
+              - not_null

@@ -1,0 +1,58 @@
+services:
+  kafka:
+    image: apache/kafka:3.9.0
+    container_name: kafka
+    hostname: kafka
+    ports:
+      - "9092:9092"    # External listener
+    environment:
+      # KRaft mode — no Zookeeper needed
+      KAFKA_NODE_ID: 1
+      KAFKA_PROCESS_ROLES: broker,controller
+      KAFKA_CONTROLLER_QUORUM_VOTERS: 1@kafka:9093
+
+      # Listeners — use :PORT shorthand binds all interfaces without explicit 0.0.0.0
+      KAFKA_LISTENERS: PLAINTEXT://:9092,CONTROLLER://:9093
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://192.168.0.113:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT
+      KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+
+      # Performance tuning for low on RAM laptops
+      KAFKA_HEAP_OPTS: "-Xmx512m -Xms512m"
+      KAFKA_LOG_RETENTION_HOURS: 24
+      KAFKA_LOG_SEGMENT_BYTES: 104857600
+      KAFKA_NUM_PARTITIONS: 3
+      KAFKA_DEFAULT_REPLICATION_FACTOR: 1
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+
+      # Cluster ID for KRaft
+      CLUSTER_ID: "picarx-kafka-cluster-001"
+    volumes:
+      - kafka_data:/var/lib/kafka/data
+    healthcheck:
+      test: /opt/kafka/bin/kafka-broker-api-versions.sh --bootstrap-server localhost:9092 || exit 1
+      interval: 10s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+  minio:
+    image: minio/minio:latest
+    container_name: picarx-minio
+    ports:
+      - "9002:9000"     # S3 API on port 9002
+      - "9003:9001"     # MinIO Web Console on port 9003
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+    command: server /data --console-address ":9001"
+    volumes:
+      - minio_data:/data
+
+volumes:
+  kafka_data:
+    driver: local
+  minio_data:
+    driver: local
