@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: fct_sensor_readings
+    description: "Enriched sensor readings with proximity and overheating flags"
+    columns:
+      - name: proximity_status
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['obstacle_near', 'obstacle_moderate', 'clear']
+      - name: event_timestamp
+        tests:
+          - not_null
+      - name: kafka_offset
+        tests:
+          - unique
+
+  - name: agg_hourly_sensors
+    description: "Hourly aggregated sensor metrics per device"
+    columns:
+      - name: hour
+        tests:
+          - not_null
+      - name: reading_count
+        tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 1
