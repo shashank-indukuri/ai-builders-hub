@@ -1,0 +1,630 @@
+{
+  "experiment": "MoE Efficiency Benchmark",
+  "timestamp": "2026-04-08T21:21:50.751256",
+  "models_tested": [
+    "Gemma 4 8B (MoE)",
+    "Gemma 3 12B (Dense)",
+    "Mistral 7B (Dense)"
+  ],
+  "prompts_count": 20,
+  "results": [
+    {
+      "model": "gemma4:latest",
+      "label": "Gemma 4 8B (MoE)",
+      "params": "8B",
+      "active_params": "~2B",
+      "avg_quality_score": 2.9,
+      "quality_pct": 96,
+      "avg_tokens_per_sec": 37.2,
+      "memory": {
+        "ram_before_gb": 6.13,
+        "ram_after_gb": 13.15,
+        "ram_delta_gb": 7.02,
+        "peak_ram_gb": 9.8,
+        "avg_ram_gb": 9.8,
+        "ollama_model_ram_gb": 9.8,
+        "ram_after_unload_gb": 3.75
+      },
+      "category_scores": {
+        "Reasoning": 3.0,
+        "Coding": 3.0,
+        "Summarization": 2.6,
+        "Instructions": 3.0
+      },
+      "prompt_results": [
+        {
+          "id": "R1",
+          "category": "Reasoning",
+          "score": 3,
+          "duration_sec": 33.62,
+          "tokens_per_sec": 36.3,
+          "ram_gb": 9.8,
+          "response_preview": "This is a classic algebra problem. Here is the step-by-step reasoning:\n\n### 1. Define Variables\n\nLet"
+        },
+        {
+          "id": "R2",
+          "category": "Reasoning",
+          "score": 3,
+          "duration_sec": 37.85,
+          "tokens_per_sec": 36.1,
+          "ram_gb": 9.8,
+          "response_preview": "You should pick one fruit from the box labeled **Mixed**.\n\nHere is the step-by-step logic:\n\n### The "
+        },
+        {
+          "id": "R3",
+          "category": "Reasoning",
+          "score": 3,
+          "duration_sec": 29.97,
+          "tokens_per_sec": 36.1,
+          "ram_gb": 9.8,
+          "response_preview": "This is a classic rate problem, and the key is to determine the rate of production per machine.\n\nThe"
+        },
+        {
+          "id": "R4",
+          "category": "Reasoning",
+          "score": 3,
+          "duration_sec": 4.34,
+          "tokens_per_sec": 35.7,
+          "ram_gb": 9.8,
+          "response_preview": "5 patients need surgery."
+        },
+        {
+          "id": "R5",
+          "category": "Reasoning",
+          "score": 3,
+          "duration_sec": 33.7,
+          "tokens_per_sec": 34.6,
+          "ram_gb": 9.8,
+          "response_preview": "This is a classic measurement puzzle. The key is to use the smaller jug to measure out the necessary"
+        },
+        {
+          "id": "C1",
+          "category": "Coding",
+          "score": 3,
+          "duration_sec": 38.84,
+          "tokens_per_sec": 34.5,
+          "ram_gb": 9.8,
+          "response_preview": "This solution uses a generator expression combined with `str.isalnum()` to efficiently filter and no"
+        },
+        {
+          "id": "C2",
+          "category": "Coding",
+          "score": 3,
+          "duration_sec": 27.91,
+          "tokens_per_sec": 34.7,
+          "ram_gb": 9.8,
+          "response_preview": "This is a very common SQL task. The solution involves using `SUM()` to aggregate the amounts, `GROUP"
+        },
+        {
+          "id": "C3",
+          "category": "Coding",
+          "score": 3,
+          "duration_sec": 35.38,
+          "tokens_per_sec": 35.3,
+          "ram_gb": 9.8,
+          "response_preview": "The difference between a Python **list** and a **tuple** is fundamental, primarily revolving around "
+        },
+        {
+          "id": "C4",
+          "category": "Coding",
+          "score": 3,
+          "duration_sec": 52.48,
+          "tokens_per_sec": 34.9,
+          "ram_gb": 9.8,
+          "response_preview": "This is a classic use case for a decorator or a wrapper function. Using only the standard library, w"
+        },
+        {
+          "id": "C5",
+          "category": "Coding",
+          "score": 3,
+          "duration_sec": 45.26,
+          "tokens_per_sec": 35.2,
+          "ram_gb": 9.8,
+          "response_preview": "A **race condition** is a type of software bug that occurs when multiple threads or processes access"
+        },
+        {
+          "id": "S1",
+          "category": "Summarization",
+          "score": 2,
+          "duration_sec": 12.57,
+          "tokens_per_sec": 35.2,
+          "ram_gb": 9.8,
+          "response_preview": "The James Webb Space Telescope is the most powerful space telescope ever built, utilizing infrared l"
+        },
+        {
+          "id": "S2",
+          "category": "Summarization",
+          "score": 3,
+          "duration_sec": 20.66,
+          "tokens_per_sec": 35.6,
+          "ram_gb": 9.8,
+          "response_preview": "Based on the text, the three most important actionable items are:\n\n1. **Overhaul the Onboarding Proc"
+        },
+        {
+          "id": "S3",
+          "category": "Summarization",
+          "score": 3,
+          "duration_sec": 24.34,
+          "tokens_per_sec": 35.0,
+          "ram_gb": 9.8,
+          "response_preview": "The main argument being made is that **traditional, isolated training programs are ineffective becau"
+        },
+        {
+          "id": "S4",
+          "category": "Summarization",
+          "score": 3,
+          "duration_sec": 16.08,
+          "tokens_per_sec": 35.2,
+          "ram_gb": 9.8,
+          "response_preview": "Think of the Transformer as a revolutionary way to read and understand language, moving beyond readi"
+        },
+        {
+          "id": "S5",
+          "category": "Summarization",
+          "score": 2,
+          "duration_sec": 33.6,
+          "tokens_per_sec": 35.3,
+          "ram_gb": 9.8,
+          "response_preview": "The logical flaw in this argument is a combination of **Non Sequitur** (the conclusion does not logi"
+        },
+        {
+          "id": "I1",
+          "category": "Instructions",
+          "score": 3,
+          "duration_sec": 0.98,
+          "tokens_per_sec": 36.4,
+          "ram_gb": 9.8,
+          "response_preview": "1. Python\n2. Java\n3. C++\n4. JavaScript\n5. C#"
+        },
+        {
+          "id": "I2",
+          "category": "Instructions",
+          "score": 3,
+          "duration_sec": 16.24,
+          "tokens_per_sec": 35.1,
+          "ram_gb": 9.8,
+          "response_preview": "*(A long, audible sigh that sounds like it's coming from the bottom of a tired soul)*\n\nUgh. Seriousl"
+        },
+        {
+          "id": "I3",
+          "category": "Instructions",
+          "score": 3,
+          "duration_sec": 20.18,
+          "tokens_per_sec": 35.6,
+          "ram_gb": 9.8,
+          "response_preview": "***\n\n### \ud83d\udcbc Formal Business English\n\n*   \"We should schedule a meeting to review the budgetary alloca"
+        },
+        {
+          "id": "I4",
+          "category": "Instructions",
+          "score": 3,
+          "duration_sec": 0.86,
+          "tokens_per_sec": 36.8,
+          "ram_gb": 9.8,
+          "response_preview": "Data feeds the mind,\nPatterns emerge from the noise,\nLearning takes its hold."
+        },
+        {
+          "id": "I5",
+          "category": "Instructions",
+          "score": 3,
+          "duration_sec": 0.27,
+          "tokens_per_sec": 71.3,
+          "ram_gb": 9.8,
+          "response_preview": "YES"
+        }
+      ]
+    },
+    {
+      "model": "gemma3:12b",
+      "label": "Gemma 3 12B (Dense)",
+      "params": "12B",
+      "active_params": "12B",
+      "avg_quality_score": 2.75,
+      "quality_pct": 91,
+      "avg_tokens_per_sec": 17.3,
+      "memory": {
+        "ram_before_gb": 3.75,
+        "ram_after_gb": 12.44,
+        "ram_delta_gb": 8.69,
+        "peak_ram_gb": 9.23,
+        "avg_ram_gb": 9.23,
+        "ollama_model_ram_gb": 9.23,
+        "ram_after_unload_gb": 3.93
+      },
+      "category_scores": {
+        "Reasoning": 3.0,
+        "Coding": 3.0,
+        "Summarization": 2.0,
+        "Instructions": 3.0
+      },
+      "prompt_results": [
+        {
+          "id": "R1",
+          "category": "Reasoning",
+          "score": 3,
+          "duration_sec": 20.25,
+          "tokens_per_sec": 16.4,
+          "ram_gb": 9.23,
+          "response_preview": "Here's how to solve this problem step-by-step:\n\n1. **Let's use variables:**\n   * Let 'x' represent t"
+        },
+        {
+          "id": "R2",
+          "category": "Reasoning",
+          "score": 3,
+          "duration_sec": 13.89,
+          "tokens_per_sec": 16.2,
+          "ram_gb": 9.23,
+          "response_preview": "You should pick a fruit from the box labeled \"Mixed.\" Here's why:\n\n*   **The Key:** Since all the la"
+        },
+        {
+          "id": "R3",
+          "category": "Reasoning",
+          "score": 3,
+          "duration_sec": 7.7,
+          "tokens_per_sec": 15.9,
+          "ram_gb": 9.23,
+          "response_preview": "Here's how to solve this:\n\n* **Understanding the rate:** If 5 machines make 5 widgets in 5 minutes, "
+        },
+        {
+          "id": "R4",
+          "category": "Reasoning",
+          "score": 3,
+          "duration_sec": 1.71,
+          "tokens_per_sec": 16.8,
+          "ram_gb": 9.23,
+          "response_preview": "Half of 10 patients is 5 patients.\n\nSo, 5 patients need surgery."
+        },
+        {
+          "id": "R5",
+          "category": "Reasoning",
+          "score": 3,
+          "duration_sec": 14.84,
+          "tokens_per_sec": 16.1,
+          "ram_gb": 9.23,
+          "response_preview": "Here's how to measure exactly 4 liters of water using a 3-liter jug and a 5-liter jug:\n\n1.  **Fill t"
+        },
+        {
+          "id": "C1",
+          "category": "Coding",
+          "score": 3,
+          "duration_sec": 35.38,
+          "tokens_per_sec": 15.9,
+          "ram_gb": 9.23,
+          "response_preview": "```python\nimport re\n\ndef is_palindrome(text):\n  \"\"\"\n  Checks if a string is a palindrome, ignoring s"
+        },
+        {
+          "id": "C2",
+          "category": "Coding",
+          "score": 3,
+          "duration_sec": 16.91,
+          "tokens_per_sec": 16.2,
+          "ram_gb": 9.23,
+          "response_preview": "```sql\nSELECT customer_id, SUM(amount) AS total_purchase_amount\nFROM orders\nGROUP BY customer_id\nORD"
+        },
+        {
+          "id": "C3",
+          "category": "Coding",
+          "score": 3,
+          "duration_sec": 65.4,
+          "tokens_per_sec": 15.9,
+          "ram_gb": 9.23,
+          "response_preview": "Okay, let's break down the differences between Python lists and tuples, and when to use each.\n\n**Lis"
+        },
+        {
+          "id": "C4",
+          "category": "Coding",
+          "score": 3,
+          "duration_sec": 66.74,
+          "tokens_per_sec": 16.1,
+          "ram_gb": 9.23,
+          "response_preview": "```python\nimport time\nimport random\n\ndef retry_with_backoff(func, *args, **kwargs, max_retries=3, ba"
+        },
+        {
+          "id": "C5",
+          "category": "Coding",
+          "score": 3,
+          "duration_sec": 103.13,
+          "tokens_per_sec": 15.9,
+          "ram_gb": 9.23,
+          "response_preview": "## Race Conditions Explained\n\nA race condition occurs when multiple threads or processes try to acce"
+        },
+        {
+          "id": "S1",
+          "category": "Summarization",
+          "score": 3,
+          "duration_sec": 4.34,
+          "tokens_per_sec": 16.9,
+          "ram_gb": 9.23,
+          "response_preview": "The James Webb Space Telescope, launched in 2021, is the most powerful ever built, utilizing infrare"
+        },
+        {
+          "id": "S2",
+          "category": "Summarization",
+          "score": 3,
+          "duration_sec": 12.21,
+          "tokens_per_sec": 16.7,
+          "ram_gb": 9.23,
+          "response_preview": "Here are the 3 most important actionable items extracted from the text, prioritized by impact:\n\n1. *"
+        },
+        {
+          "id": "S3",
+          "category": "Summarization",
+          "score": 2,
+          "duration_sec": 6.99,
+          "tokens_per_sec": 16.7,
+          "ram_gb": 9.23,
+          "response_preview": "The main argument is that **traditional employee training programs are largely ineffective because t"
+        },
+        {
+          "id": "S4",
+          "category": "Summarization",
+          "score": 0,
+          "duration_sec": 4.82,
+          "tokens_per_sec": 16.9,
+          "ram_gb": 9.23,
+          "response_preview": "**TL;DR:** Transformers are like really smart auto-complete systems that understand context better t"
+        },
+        {
+          "id": "S5",
+          "category": "Summarization",
+          "score": 2,
+          "duration_sec": 20.22,
+          "tokens_per_sec": 16.6,
+          "ram_gb": 9.23,
+          "response_preview": "The logical flaw in this argument is **hasty generalization** and **appeal to popularity (bandwagon "
+        },
+        {
+          "id": "I1",
+          "category": "Instructions",
+          "score": 3,
+          "duration_sec": 1.81,
+          "tokens_per_sec": 17.3,
+          "ram_gb": 9.23,
+          "response_preview": "1. Python\n2. Java\n3. C++\n4. JavaScript\n5. Go"
+        },
+        {
+          "id": "I2",
+          "category": "Instructions",
+          "score": 3,
+          "duration_sec": 5.63,
+          "tokens_per_sec": 16.8,
+          "ram_gb": 9.23,
+          "response_preview": "(A long, drawn-out sigh is audible, even if just imagined)\n\nLook, I'm *technically* supposed to answ"
+        },
+        {
+          "id": "I3",
+          "category": "Instructions",
+          "score": 3,
+          "duration_sec": 12.84,
+          "tokens_per_sec": 16.6,
+          "ram_gb": 9.23,
+          "response_preview": "Okay, here are the translations of \"We need to talk about the budget\" in formal business English, ca"
+        },
+        {
+          "id": "I4",
+          "category": "Instructions",
+          "score": 3,
+          "duration_sec": 1.77,
+          "tokens_per_sec": 16.9,
+          "ram_gb": 9.23,
+          "response_preview": "Data starts to flow,\nLearning patterns, growing wise,\nFuture takes new form."
+        },
+        {
+          "id": "I5",
+          "category": "Instructions",
+          "score": 3,
+          "duration_sec": 0.47,
+          "tokens_per_sec": 32.4,
+          "ram_gb": 9.23,
+          "response_preview": "YES"
+        }
+      ]
+    },
+    {
+      "model": "mistral:latest",
+      "label": "Mistral 7B (Dense)",
+      "params": "7B",
+      "active_params": "7B",
+      "avg_quality_score": 2.7,
+      "quality_pct": 90,
+      "avg_tokens_per_sec": 29.3,
+      "memory": {
+        "ram_before_gb": 3.93,
+        "ram_after_gb": 11.23,
+        "ram_delta_gb": 7.3,
+        "peak_ram_gb": 4.79,
+        "avg_ram_gb": 4.79,
+        "ollama_model_ram_gb": 4.79,
+        "ram_after_unload_gb": 8.32
+      },
+      "category_scores": {
+        "Reasoning": 2.8,
+        "Coding": 3.0,
+        "Summarization": 2.0,
+        "Instructions": 3.0
+      },
+      "prompt_results": [
+        {
+          "id": "R1",
+          "category": "Reasoning",
+          "score": 3,
+          "duration_sec": 10.21,
+          "tokens_per_sec": 28.8,
+          "ram_gb": 4.79,
+          "response_preview": "Let's denote the cost of the ball as B dollars, and the cost of the bat as B+$1 dollars.\n\nThe sum of"
+        },
+        {
+          "id": "R2",
+          "category": "Reasoning",
+          "score": 3,
+          "duration_sec": 8.54,
+          "tokens_per_sec": 28.6,
+          "ram_gb": 4.79,
+          "response_preview": "To solve this problem, let's reason through it:\n\n1. Since all labels are wrong, the box labeled \"mix"
+        },
+        {
+          "id": "R3",
+          "category": "Reasoning",
+          "score": 2,
+          "duration_sec": 3.38,
+          "tokens_per_sec": 28.3,
+          "ram_gb": 4.79,
+          "response_preview": "Given that 5 machines can produce 5 widgets in 5 minutes, this implies that one machine produces one"
+        },
+        {
+          "id": "R4",
+          "category": "Reasoning",
+          "score": 3,
+          "duration_sec": 1.01,
+          "tokens_per_sec": 29.0,
+          "ram_gb": 4.79,
+          "response_preview": "The doctor has 10 patients. If half of them need surgery, that means 5 patients will need surgery."
+        },
+        {
+          "id": "R5",
+          "category": "Reasoning",
+          "score": 3,
+          "duration_sec": 8.99,
+          "tokens_per_sec": 27.9,
+          "ram_gb": 4.79,
+          "response_preview": "Here's one way to measure exactly 4 liters using the two jugs:\n\n1. Fill the 3-liter jug completely ("
+        },
+        {
+          "id": "C1",
+          "category": "Coding",
+          "score": 3,
+          "duration_sec": 12.18,
+          "tokens_per_sec": 28.5,
+          "ram_gb": 4.79,
+          "response_preview": "Here's a Python function that checks if a string is a palindrome, ignoring spaces, punctuation, and "
+        },
+        {
+          "id": "C2",
+          "category": "Coding",
+          "score": 3,
+          "duration_sec": 9.2,
+          "tokens_per_sec": 27.9,
+          "ram_gb": 4.79,
+          "response_preview": "To find the top 3 customers by total purchase amount from the 'orders' table, you can use the follow"
+        },
+        {
+          "id": "C3",
+          "category": "Coding",
+          "score": 3,
+          "duration_sec": 15.1,
+          "tokens_per_sec": 27.6,
+          "ram_gb": 4.79,
+          "response_preview": "In Python, both lists and tuples are used to store collections of items, but they have some key diff"
+        },
+        {
+          "id": "C4",
+          "category": "Coding",
+          "score": 3,
+          "duration_sec": 9.7,
+          "tokens_per_sec": 27.9,
+          "ram_gb": 4.79,
+          "response_preview": "Here's a Python function that retries a given function call up to 3 times with exponential backoff w"
+        },
+        {
+          "id": "C5",
+          "category": "Coding",
+          "score": 3,
+          "duration_sec": 18.36,
+          "tokens_per_sec": 28.6,
+          "ram_gb": 4.79,
+          "response_preview": "A race condition is a situation in concurrent computing where the outcome depends on the sequence or"
+        },
+        {
+          "id": "S1",
+          "category": "Summarization",
+          "score": 2,
+          "duration_sec": 3.77,
+          "tokens_per_sec": 28.1,
+          "ram_gb": 4.79,
+          "response_preview": "The James Webb Space Telescope, launched in December 2021, is the most powerful space telescope ever"
+        },
+        {
+          "id": "S2",
+          "category": "Summarization",
+          "score": 3,
+          "duration_sec": 6.56,
+          "tokens_per_sec": 28.0,
+          "ram_gb": 4.79,
+          "response_preview": "1. Improve the onboarding process: The slow onboarding process (averaging 8 days) seems to be a sign"
+        },
+        {
+          "id": "S3",
+          "category": "Summarization",
+          "score": 2,
+          "duration_sec": 3.54,
+          "tokens_per_sec": 29.4,
+          "ram_gb": 4.79,
+          "response_preview": "The main argument in this text is that traditional employee training programs, which are often one-t"
+        },
+        {
+          "id": "S4",
+          "category": "Summarization",
+          "score": 1,
+          "duration_sec": 2.75,
+          "tokens_per_sec": 28.5,
+          "ram_gb": 4.79,
+          "response_preview": "Transformer architecture is a type of artificial intelligence model that understands and generates h"
+        },
+        {
+          "id": "S5",
+          "category": "Summarization",
+          "score": 2,
+          "duration_sec": 8.05,
+          "tokens_per_sec": 25.7,
+          "ram_gb": 4.79,
+          "response_preview": "The logical flaw in this argument lies in the assumption that a high number of positive reviews or a"
+        },
+        {
+          "id": "I1",
+          "category": "Instructions",
+          "score": 3,
+          "duration_sec": 1.08,
+          "tokens_per_sec": 27.9,
+          "ram_gb": 4.79,
+          "response_preview": "1. Python\n\n2. JavaScript\n\n3. Java\n\n4. C++\n\n5. Ruby"
+        },
+        {
+          "id": "I2",
+          "category": "Instructions",
+          "score": 3,
+          "duration_sec": 6.89,
+          "tokens_per_sec": 26.8,
+          "ram_gb": 4.79,
+          "response_preview": "Ah, greetings there! I'm delighted to see such enthusiasm for our humble establishment on this fine "
+        },
+        {
+          "id": "I3",
+          "category": "Instructions",
+          "score": 3,
+          "duration_sec": 2.95,
+          "tokens_per_sec": 27.8,
+          "ram_gb": 4.79,
+          "response_preview": "Formal Business English: It is necessary for us to discuss the budget.\n\nCasual English: Let's chat a"
+        },
+        {
+          "id": "I4",
+          "category": "Instructions",
+          "score": 3,
+          "duration_sec": 1.19,
+          "tokens_per_sec": 28.0,
+          "ram_gb": 4.79,
+          "response_preview": "Data flows, patterns emerge,\n\nIntelligence learns, evolves swift,\n\nAI's endless curve."
+        },
+        {
+          "id": "I5",
+          "category": "Instructions",
+          "score": 3,
+          "duration_sec": 0.19,
+          "tokens_per_sec": 52.4,
+          "ram_gb": 4.79,
+          "response_preview": "Yes"
+        }
+      ]
+    }
+  ]
+}

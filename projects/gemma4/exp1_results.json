@@ -1,0 +1,49 @@
+{
+  "experiment": "Lost in the Middle",
+  "model": "gemma4",
+  "timestamp": "2026-04-08T20:48:53.953109",
+  "doc_words": 16008,
+  "results": [
+    {
+      "position_pct": 5,
+      "key": "CEO_NAME",
+      "expected": "Marisol Quentin-Blackwood",
+      "response": "Marisol Quentin-Blackwood",
+      "correct": true,
+      "duration_sec": 56.05
+    },
+    {
+      "position_pct": 25,
+      "key": "REVENUE_2023",
+      "expected": "$4.87 billion",
+      "response": "$4.87 billion",
+      "correct": true,
+      "duration_sec": 49.02
+    },
+    {
+      "position_pct": 50,
+      "key": "PROJECT_CODE",
+      "expected": "ZEPHYR-7749",
+      "response": "ZEPHYR-7749",
+      "correct": true,
+      "duration_sec": 48.48
+    },
+    {
+      "position_pct": 75,
+      "key": "LAUNCH_DATE",
+      "expected": "March 3rd 2027",
+      "response": "March 3rd 2027",
+      "correct": true,
+      "duration_sec": 48.94
+    },
+    {
+      "position_pct": 95,
+      "key": "VAULT_CODE",
+      "expected": "aurora-delta-9",
+      "response": "aurora-delta-9",
+      "correct": true,
+      "duration_sec": 48.3
+    }
+  ],
+  "accuracy_pct": 100.0
+}
